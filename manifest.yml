@@ -1,0 +1,15 @@
+modules:
+  jira:globalPage:
+    - key: new-three-app-hello-world-page
+      resource: main
+      resolver:
+        function: resolver
+      title: new-three-app-new
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build/
+app:
+  id: ari:cloud:ecosystem::app/3a75b573-b8e7-48a2-a52e-0c757559f4d1
