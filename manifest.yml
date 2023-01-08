@@ -13,3 +13,20 @@ resources:
     path: static/hello-world/build/
 app:
   id: ari:cloud:ecosystem::app/3a75b573-b8e7-48a2-a52e-0c757559f4d1
+permissions:
+ content:
+      scripts:
+       - 'unsafe-eval'
+ external:
+      styles:
+       - 'https://rsms.me/inter/inter.css'
+      fonts:
+       - 'https://docs.pmnd.rs/fonts/meslo.woff2'
+      fetch:
+        client:
+           - 'https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/hdris/potsdamer-platz/potsdamer_platz_1k.hdr'
+           - 'https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/hdris/venice/venice_sunset_1k.hdr'
+           - '*.net/s2wt_kamdo_industrial_divinities-transformed.glb'
+
+
+
